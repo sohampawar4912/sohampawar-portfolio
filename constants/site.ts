@@ -22,7 +22,7 @@ export const SITE_CONFIG = {
   email: "sohampawar859@gmail.com",
   github: "https://github.com/sohampawar4912",
   linkedin: "https://linkedin.com/in/sohampawar-sp4912",
-  resumeUrl: "#",
+  resumeUrl: "/resume/soham_pawar_resume.pdf",
   locale: "en_US",
 } as const;
 

@@ -142,6 +142,9 @@ export function Hero() {
             >
               <a
                 href={SITE_CONFIG.resumeUrl}
+                download="Soham_Pawar_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 h-11 px-6 rounded-xl text-sm font-medium bg-gradient-to-r from-primary via-purple-500 to-secondary text-white shadow-lg shadow-primary/25 hover:shadow-primary/40 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
               >
                 <Download className="h-4 w-4" />

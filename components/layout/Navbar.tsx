@@ -59,11 +59,16 @@ export function Navbar() {
               e.preventDefault();
               handleNavClick("#home");
             }}
-            className="font-display text-xl font-bold gradient-text"
-            whileHover={{ scale: 1.05 }}
+            className="group relative flex h-10 w-10 items-center justify-center rounded-full p-[1.5px] bg-gradient-to-tr from-primary via-purple-500 to-secondary shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all duration-300"
+            whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
+            aria-label="Soham Pawar - Home"
           >
-            SP
+            <div className="flex h-full w-full items-center justify-center rounded-full bg-[#050816] transition-colors group-hover:bg-[#050816]/80">
+              <span className="font-display text-sm font-bold gradient-text tracking-wide group-hover:scale-105 transition-transform duration-300">
+                SP
+              </span>
+            </div>
           </motion.a>
 
           {/* Desktop Nav */}

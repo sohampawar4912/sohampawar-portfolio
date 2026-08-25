@@ -23,6 +23,8 @@ export interface Project {
   title: string;
   status: "coming-soon" | "live";
   description: string;
+  image?: string;
+  tags?: string[];
 }
 
 export interface SocialLink {
