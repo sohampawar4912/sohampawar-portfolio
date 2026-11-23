@@ -6,12 +6,13 @@ export const EXPERIENCES: Experience[] = [
     role: "Software Engineer",
     duration: "July 2025 – Present",
     description:
-      "Building scalable web applications and delivering high-quality software solutions for clients across diverse industries.",
+      "Developing full-stack web applications, digital service portals, and citizen-facing and officer-facing modules with modern technologies and scalable architecture.",
     achievements: [
-      "Developed and maintained full-stack web applications using React and Node.js",
-      "Collaborated with cross-functional teams to deliver client projects on schedule",
-      "Implemented responsive UI components and optimized application performance",
-      "Contributed to code reviews and established best practices for the development team",
+      "Develop and enhance citizen-facing and officer-facing portal modules using React.js, Next.js and TypeScript",
+      "Build reusable UI components and integrate REST APIs using Node.js and NestJS",
+      "Work with PostgreSQL and Prisma ORM to support application data, dashboards and tracking workflows",
+      "Implement authentication and role-based access workflows",
+      "Troubleshoot application issues, improve existing features and collaborate with the development team using Git, Postman, Docker and Agile practices",
     ],
   },
 ];

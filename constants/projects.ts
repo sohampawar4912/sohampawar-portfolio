@@ -11,13 +11,13 @@ export const PROJECTS: Project[] = [
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS"],
   },
   {
-    id: "sports-tournament-management-system",
-    title: "Sports Tournament Management System",
+    id: "caffee-delicioso",
+    title: "Caffee Delicioso — Smart Cafe & POS Management System",
     status: "coming-soon",
     description:
-      "A comprehensive tournament platform featuring automated bracket generation, live score tracking, team management, and real-time match analytics.",
-    image: "/projects/sports-tournament.jpg",
-    tags: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
+      "Caffee Delicioso is a full-stack, enterprise-grade Smart Cafe Management, Contactless QR Ordering, and Point-of-Sale (POS) platform. It is designed to streamline front-of-house customer experiences, accelerate kitchen turnaround times, and provide the cafe owner with real-time operational and financial intelligence.",
+    image: "/projects/caffee-delicioso.jpg",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma ORM", "PostgreSQL", "Razorpay"],
   },
   {
     id: "dental-clinic-system",
